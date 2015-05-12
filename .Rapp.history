@@ -1,0 +1,14 @@
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean("specdata", "sulfate", 1:10)
+load("pollutantmean.R")
+cd
+load('pollutantmean.R')
+ls
+pollutantmean("specdata", "sulfate", 1:10)
+getwd()
+pollutantmean.R
+pollutantmean.R
+load('pollutantmean.R')
+source("/Users/egorov/datasciencecoursera/pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
