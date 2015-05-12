@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "datasciencecoursera"
+git remote add origin https://github.com/tegora/datasciencecoursera
+git push -u origin master

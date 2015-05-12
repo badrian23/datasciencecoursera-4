@@ -1,14 +1,13 @@
-pollutantmean("specdata", "sulfate", 1:10)
-pollutantmean("specdata", "sulfate", 1:10)
-pollutantmean("specdata", "sulfate", 1:10)
-load("pollutantmean.R")
-cd
-load('pollutantmean.R')
-ls
-pollutantmean("specdata", "sulfate", 1:10)
-getwd()
-pollutantmean.R
-pollutantmean.R
-load('pollutantmean.R')
 source("/Users/egorov/datasciencecoursera/pollutantmean.R")
 pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean("specdata", "nitrate", 70:72)
+pollutantmean("specdata", "nitrate", 23)
+git pull https://github.com/tegora/datasciencecoursera
+git commit -m "datasciencecoursera"
+commit -m "datasciencecoursera"
+remote add https://github.com/tegora/datasciencecoursera
+git remote add https://github.com/tegora/datasciencecoursera
+git init#
+git add .#
+git commit -m "Init"
