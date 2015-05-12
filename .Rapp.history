@@ -1,13 +1,10 @@
-source("/Users/egorov/datasciencecoursera/pollutantmean.R")
-pollutantmean("specdata", "sulfate", 1:10)
-pollutantmean("specdata", "sulfate", 1:10)
-pollutantmean("specdata", "nitrate", 70:72)
-pollutantmean("specdata", "nitrate", 23)
-git pull https://github.com/tegora/datasciencecoursera
-git commit -m "datasciencecoursera"
-commit -m "datasciencecoursera"
-remote add https://github.com/tegora/datasciencecoursera
-git remote add https://github.com/tegora/datasciencecoursera
-git init#
-git add .#
-git commit -m "Init"
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+source("submitscript1.R")
+source("submitscript1.R")
+source("submitscript1.R")
+submit()
+sourse('complete.R')
+bue
+stop
+cd
+exit
