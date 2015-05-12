@@ -1,10 +1,2 @@
-source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
-source("submitscript1.R")
-source("submitscript1.R")
 source("submitscript1.R")
 submit()
-sourse('complete.R')
-bue
-stop
-cd
-exit
