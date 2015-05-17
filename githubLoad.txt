@@ -1,3 +1,7 @@
+
+git config --global user.email 'tnkiselyova@gmail.com'
+git config --global user.name 'tegora'
+cd datasoursecoursera
 git init
 git add .
 git commit -m "datasciencecoursera"

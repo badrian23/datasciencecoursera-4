@@ -1,30 +1,9 @@
 complete <- function(directory, id = 1:332) {
-  
-	setwd(file.path(getwd(), directory))
-	nobs=numeric()
-		
-	for (i in id){
-          
-		if (i <10) { 
-			data <- read.csv(paste("0","0", as.character(i), ".csv", sep=""),header = T, na.strings=c("NA","NaN", " "))
-			nobs=c(nobs,sum(complete.cases(data)))
-         }
-      
-		else if (i>=10 & i<100) { 
-			data <- read.csv(paste("0", as.character(i), ".csv", sep=""), header = T, na.strings=c("NA","NaN", " ") )
-			nobs=c(nobs,sum(complete.cases(data)))
-		}
-
-		else { 
-			data <- read.csv(paste(as.character(i), ".csv", sep=""), header = T, na.strings=c("NA","NaN", " "))
-			nobs=c(nobs,sum(complete.cases(data)))
-	}
-	
- 	data = na.omit(data)    
-
-}
-
-  setwd("..")
-  return(data.frame(id,nobs))
-
+    f <- function(i) {
+        data = read.csv(paste(directory, "/", formatC(i, width = 3, flag = "0"), 
+            ".csv", sep = ""))
+        sum(complete.cases(data))
+    }
+    nobs = sapply(id, f)
+    return(data.frame(id, nobs))
 }
