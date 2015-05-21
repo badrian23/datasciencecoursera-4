@@ -12,6 +12,7 @@ git config --global user.email 'tnkiselyova@gmail.com'
 git config --global user.name 'tegora'
 git init
 git pull https://github.com/tegora/datasciencecoursera.git
+cd datasciencecoursera
 git add *
 git commit -m 'datasciencecoursera'
 git remote add datasciencecoursera https://github.com/tegora/datasciencecoursera.git
